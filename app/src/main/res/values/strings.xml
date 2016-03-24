@@ -1,0 +1,42 @@
+<resources>
+
+    <string name="application.name">POS</string>
+
+    <string name="usertype.admin">Admin</string>
+    <string name="usertype.provizor">Provizor</string>
+    <string name="usertype.cashier">Cashier</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="auth.login.edt_username">Username</string>
+    <string name="auth.login.edt_password">Password</string>
+    <string name="auth.login.btn_login">Login</string>
+    <string name="auth.login.error.username">Please enter correct username</string>
+    <string name="auth.login.error.password">Please enter correct password</string>
+
+    <string name="main.titles.scanner">Scanner</string>
+
+    <string name="order.item.count">$1%d pc</string>
+
+
+    <string name="payment.sum">До сплати</string>
+    <string name="payment.input">Внесено</string>
+    <string name="payment.short_change">Решта</string>
+
+    <string name="sell_done">Потрачено</string>
+
+    <!--PayOrder-->
+    <string name="payment.empty_input">Введіть, будь-ласка, отриману суму</string>
+    <string name="payment.incorrect_input">Невірний формат введення</string>
+    <string name="payment.not_enough_money">Недостатньо коштів для оплати</string>
+
+    <!--ChangeDialog-->
+    <string name="change.value">Решта: %1$f</string>
+
+    <!--Dialog-->
+    <string name="are.u.sure.u.want.delete">Are you sure you want to delete this item?</string>
+    <string name="yes">YES</string>
+    <string name="no">NO</string>
+
+</resources>

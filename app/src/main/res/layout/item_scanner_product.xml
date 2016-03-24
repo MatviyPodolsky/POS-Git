@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+    android:id="@+id/root">
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:text="Bananas"
+        android:textColor="@color/primaryText"
+        android:textSize="@dimen/large_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:ellipsize="end"
+        android:layout_toStartOf="@+id/tv_count"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_toLeftOf="@+id/tv_count"/>
+
+    <TextView
+        android:id="@+id/price"
+        android:textSize="@dimen/middle_text"
+        android:text="7.60"
+        android:textColor="@color/secondaryText"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:text="2 pc"
+        android:textSize="@dimen/middle_text"
+        android:textColor="@color/secondaryText"
+        android:layout_toLeftOf="@+id/price"
+        android:layout_centerVertical="true"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_count"/>
+
+    <TextView
+        android:id="@+id/tv_code"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</RelativeLayout>
